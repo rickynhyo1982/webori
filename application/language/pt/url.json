@@ -1,0 +1,8 @@
+{
+    "url_inicio" : "iniciacao",
+    "url_numeros" : "atos",
+    "url_eventos" : "eventos",
+    "url_espectaculos" : "mostra",
+    "url_quienes" : "quem-somos",
+    "url_contacto" : "contato"
+}

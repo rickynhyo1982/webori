@@ -1,0 +1,40 @@
+{
+    "destacado_centro" : "Contemporary circus",
+    "destacado_izquierda" : "Productions and Artistic Representations",
+    "destacado_derecha" : "Entertainment Circus Dance Theatre",
+    "numeros_de_circo" : "Números de circo",
+    "espectaculos" : "Espectáculos",
+    "eventos" : "Eventos",
+    "datos_de_contacto" : "Datos de contacto",
+    "social" : "Social",
+    "enlaces" : "Enlaces",
+    "inicio" : "Inicio",
+    "numeros" : "Números",
+    "quienes_somos" : "Quiénes somos",
+    "contacto" : "Contacto",
+    "imagenes" : "Imágenes",
+    "videos" : "Vídeos",
+
+    "que_ofrecemos" : "Qué ofrecemos",
+    "ampliar" : "Ampliar",
+    "ver_mas" : "Ver mas",
+    "la_opinion_de_nuestros_clientes" : "La opinión de nuestros clientes",
+    "premios_obtenidos" : "Premios obtenidos",
+    "en_las_redes_sociales" : "En las redes sociales",
+    "compartir" : "Compartir",
+
+    "mas_informacion" : "Mas información",
+
+    "datos_de_contacto" : "Datos de contacto",
+    "formulario_de_contacto" : "Formulario de contacto",
+    "texto_formulario" : "Solo tienes que rellenar los campos y pulsar el botón <strong>Enviar</strong>, recibiremos tu mensaje y te contestaremos en la mayor brevedad posible.",
+    "nombre" : "Nombre",
+    "mail" : "Mail",
+    "telefono" : "Teléfono",
+    "mensaje" : "Mensaje",
+    "campos_obligatorios" : "Campos obligatorios",
+    "enviar" : "Enviar",
+
+    "desarrollado_por" : "Desarrollado por",
+    "fecha_desarrollo" : "en enero de 2014"
+}

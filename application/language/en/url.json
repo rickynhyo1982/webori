@@ -1,0 +1,8 @@
+{
+    "url_inicio" : "home",
+    "url_numeros" : "acts",
+    "url_eventos" : "events",
+    "url_espectaculos" : "shows",
+    "url_quienes" : "who-we-are",
+    "url_contacto" : "contact"
+}

@@ -1,0 +1,8 @@
+{
+    "url_inicio" : "inicio",
+    "url_numeros" : "numeros",
+    "url_eventos" : "eventos",
+    "url_espectaculos" : "espectaculos",
+    "url_quienes" : "quienes-somos",
+    "url_contacto" : "contacto"
+}

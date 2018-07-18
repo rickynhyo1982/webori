@@ -1,0 +1,802 @@
+/* 
+    Document   : style
+    Created on : 01-sep-2013, 16:09:21
+    Author     : Pedro Escudero
+    Description:
+        Main stylesheet for site pedroescudero.info
+*/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    font-style: inherit;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/* CUSTOM STYLES */
+
+html {
+    background-color: #000;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'Rufina', sans-serif;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    color: #d2d2d2;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    color: #F5C61E;
+    /*font-family: Cast_Iron;*/
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #feaaaa;
+    margin-bottom: 20px;
+    font-family: 'Allan', sans-serif;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #b27979;
+    margin-bottom: 20px;
+    font-family: 'Allan', sans-serif;
+}
+
+h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #51A2C2;
+}
+
+h1, h2, h3, h4 {
+    letter-spacing: 0.15em;
+}
+
+section {
+    padding: 10px;
+    text-align: justify;
+}
+
+hr {
+    clear: both;
+    display: block;
+    width: 100%;
+    height: 1px;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+small {
+    font-size: 0.9em;
+}
+
+i {
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+}
+
+input[type=button], input[type=submit], button {border: 0px;}
+
+@media only screen and (min-width: 768px) {
+    table {width: 100%;}
+}
+
+table thead:first-child {
+    border: 1px #424242 solid;
+}
+
+th, td {
+    vertical-align: middle;
+    padding: 5px 7px 5px 7px;
+}
+
+th {
+    background-color: #424242;
+    color: #F5F5F5;
+    font-weight: bold;
+    text-align: center;
+}
+
+td {
+    color: #6c6c6c;
+    border-bottom: 1px #6c6c6c dotted;
+}
+
+td.last-child {
+    border-right: 1px #6c6c6c dotted;
+}
+
+tr td:first-child {
+    font-weight: bold;
+    background-color: #F5F5F5;
+    border-left: 1px #6c6c6c dotted;
+}
+
+fieldset {
+    margin-bottom: 10px;
+}
+
+/* Generic *********/
+.wrapper {
+    width: 100%;
+}
+
+.shadow_bottom {
+    box-shadow: 0 5px 10px -3px #000;
+}
+
+.parallel-list-left li {
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+.parallel-list-right li {
+    display: block;
+    float: right;
+}
+
+.list-separator {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.white-background {
+    background-color: #fff;
+}
+
+.white-veil {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.black-veil {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.light-grey-background {
+    background-color: #F5F5F5;
+}
+
+.dark-grey-background {
+    background-color: #6c6c6c;
+}
+
+.separator-20 {
+    height: 20px;
+}
+
+.separator-40 {
+    height: 40px;
+}
+
+.separator-60 {
+    height: 60px;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.image-margin-left {
+    margin-left: 10px;
+}
+
+.image-margin-right {
+    margin-right: 10px;
+}
+
+.button-link {
+    background-color: #51A2C2;
+    color: #F5F5F5;
+    font-weight: bold;
+    padding: 5px 7px 5px 7px;
+}
+
+.button-link:hover {
+    background-color: #9EE4FF;
+}
+
+.green-tag {
+    display: block;
+    background-color: #50c62d;
+    color: #F5F5F5;
+    font-weight: bold;
+    padding: 5px 7px 5px 7px;
+}
+
+.blue-link {
+    color: #51A2C2;
+}
+
+.blue-link:hover {
+    color: #9EE4FF;
+}
+
+.img-expander {
+    width: 100%;
+}
+
+.textarea-toolbar {
+    margin-bottom: 10px;
+}
+
+.odd, .pair {
+    border-bottom: 1px #b1b1b1 dotted;
+}
+
+.odd {
+    color: #000;
+    background-color: #fff;
+    /*background: url(/resources/style/img/mochaGrunge.png) repeat;*/
+}
+
+.odd h2, .odd h3 {
+    text-shadow: 1px 1px 2px #000;
+}
+
+.pair h2, .pair h3 {
+    text-shadow: 1px 1px 2px #1f1f1f;
+}
+
+#awards {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#awards p {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 5px;
+}
+
+.odd .diamond-trick {
+    height: 15px;
+    background: url(/resources/style/img/rombo.png) no-repeat center center;
+    margin-bottom: 5px;
+}
+
+.pair .diamond-trick {
+    height: 15px;
+    background: url(/resources/style/img/rombo-light.png) no-repeat center center;
+    margin-bottom: 5px;
+}
+
+.show img {
+    width: 100%;
+    border: 1px #b1b1b1 solid;
+}
+
+.show p {
+    color: #d2d2d2;
+}
+
+.thumnail-container {
+    position: relative;
+}
+
+.thumbnail {
+   border: 1px #b1b1b1 dotted; 
+}
+
+.lupa{position:absolute; top:10px; right:20px; display:none;}
+
+.submenu {
+    border: 1px #b1b1b1 dotted;
+}
+
+/*flexlider fix */
+
+.flexslider .slides > li {
+position: relative;
+}
+
+.flex-caption {
+width: 96%;
+padding: 2%;
+position: absolute;
+left: 0;
+bottom: 0;
+background: rgba(0, 0, 0, 0.6);
+color: #fff;
+text-align: center;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Youtube Fix */
+.video-container {
+    position: relative;
+    padding-bottom: 300px;
+    padding-top: 26px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.social-share {
+    padding-left: 34px;
+    background: url(/resources/style/img/share.png) no-repeat left top;
+}
+
+.social-go {
+    padding-left: 34px;
+    background: url(/resources/style/img/jump.png) no-repeat left top;
+}
+
+.go-up {
+    padding-right: 15px;
+    background: url(/resources/style/img/arrow_signal.png) no-repeat right center;
+}
+
+.go-up:hover {
+    background: url(/resources/style/img/arrow_signal_light.png) no-repeat right center;
+}
+
+.button-list li {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+/* End Generic *****/
+
+#main-header {
+    position: relative;
+    height: 450px;
+    background: no-repeat 100% 100%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+#outstanding {
+    color: #F5C61E;
+    font-family: 'Allan', sans-serif;
+    text-shadow: 2px 2px 3px #000;
+}
+
+#outstanding .main {
+    font-size: 3em;
+    line-height: 1.3em;
+}
+
+#outstanding .secondary {
+    padding-top: 60px;
+    font-size: 2em;
+    line-height: 1.3em;
+}
+
+#main-nav {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#main-nav ul{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    background-color: #000;
+}
+
+#languages ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 1035px) { 
+    #main-nav ul, #languages ul {
+        float: right;
+    }
+}
+
+@media screen and (max-width: 1034px) { 
+    #main-nav ul, #languages ul {
+        float: left;
+    }
+}
+
+#main-nav li, #languages li {
+        float:left;
+    }
+
+.man-nav-option {
+    color: #F5F5F5;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+#languages .language, #curren-language {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+#languages .language:hover {
+    color: #51A2C2;
+}
+
+.man-nav-option img {
+    vertical-align: middle;
+}
+
+.current {
+    color: #51A2C2;
+}
+
+.man-nav-option a:hover {
+    color: #51A2C2;
+}
+/* End Header *****/
+
+/* Footer *********/
+#main-footer-wrapper {
+    background-color: #000;
+}
+
+#main-footer {
+    color: #6c6c6c;
+    padding-bottom: 20px;
+}
+
+#main-footer a:hover {
+    color: #F5F5F5;
+}
+
+#main-footer li {
+    margin-bottom: 3px;
+}
+
+#main-footer hr {
+    border-top: 1px #6c6c6c dotted;
+    margin-bottom: 10px;
+}
+
+#main-footer a[target="_blank"] {
+    padding-right: 18px;
+    background: url(/resources/style/img/link_signal_grey.png) no-repeat right;
+}
+
+#main-footer a[target="_blank"]:hover {
+    background: url(/resources/style/img/link_signal_light_grey.png) no-repeat right;
+}
+/* End Footer *****/
+
+/* Main_image *****/
+#main-image-wrapper {
+    position: relative;
+    background-color: #fff;
+    border-bottom: 5px #51A2C2 solid;
+    height: 580px;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #main-image-wrapper {
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #main-image-wrapper {
+        height: 280px;
+    }
+}
+
+.main-image-snipet {
+    background: url(/resources/style/img/opacity90.png) repeat center;
+}
+
+.main-image-snipet hr {
+    border-top: 1px #6c6c6c dotted;
+    margin-bottom: 10px;
+}
+
+#search-box {
+    float: left;
+}
+
+#search-box ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+
+#search-box input[type="submit"] {
+    margin-left: 10px;
+}
+/* End Main_image */
+
+/* Home *****/
+#home-content {
+    
+}
+
+.home-snippet {
+    background-color: #F5F5F5;
+}
+
+.home-snippet hr, .home-article hr {
+    border-top: 1px #6c6c6c dotted;
+    margin-bottom: 10px;
+}
+
+.home-article {
+    text-align: justify;
+}
+
+.home-article a[target="_blank"] {
+    padding-right: 18px;
+    background: url(/resources/style/img/link_signal.png) no-repeat right;
+}
+
+.home-article .blue-link[target="_blank"] {
+    padding-right: 18px;
+    background: url(/resources/style/img/link_signal_blue.png) no-repeat right;
+}
+
+.nav-menu-option {
+    padding-left: 20px;
+    background: url(/resources/style/img/anchor_signal.png) no-repeat left center;
+}
+
+.nav-menu-option:hover{
+    background: url(/resources/style/img/anchor_signal_blue.png) no-repeat left center;
+}
+
+.nav-menu-option:hover {
+    color: #51A2C2;
+}
+
+.home-portrait {
+    margin-bottom: 10px;
+}
+
+.sillouete{
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.sillouete2{
+    /*height: 588px;*/
+    background: url(/resources/style/img/sillouete3.png) no-repeat bottom center;
+}
+
+.sillouete3{
+    height: 487px;
+    background: url(/resources/style/img/sillouete2.png) no-repeat bottom center;
+}
+
+.sillouete4{
+    height: 156px;
+    background: url(/resources/style/img/sillouete4.png) no-repeat bottom center;
+}
+
+.sillouete5{
+    height: 503px;
+    background: url(/resources/style/img/sillouete5.png) no-repeat bottom center;
+}
+
+.sillouete6{
+    height: 261px;
+    background: url(/resources/style/img/sillouete6.png) no-repeat bottom center;
+}
+
+.sillouete7{
+    height: 712px;
+    background: url(/resources/style/img/sillouete7.png) no-repeat bottom center;
+}
+
+/* End Home */
+
+/* Form Styling ---------------------------------------------------------------------------------- */
+label, input[type=button], input[type=submit], button {cursor:pointer;}
+button, input, select, textarea {margin:0; padding:3px;}
+
+/* Align Inputs with Labels */
+label {vertical-align:middle; margin-right:5px; line-height:1.5;}
+label+textarea, label+select[size] {vertical-align:top;}
+.ie6 label {vertical-align:3px;}
+
+input, select {vertical-align:middle;}
+input[type=radio] {vertical-align:-1px; margin-right:5px;}
+input[type=checkbox] {vertical-align:-2px; margin-right:5px;}
+.ie6 input {vertical-align:text-bottom;}
+.ie6 button, .ie7 button {width:auto; overflow:visible;}
+
+select optgroup {color:#777;}
+select optgroup option{color:#333;}
+
+input[type=text], input[type=password], textarea, select {padding:3px; margin-bottom:5px; border:1px solid #424242;;}
+textarea {overflow-y:auto; resize:vertical;}
+
+input, textarea, select, button {
+ 	background-color:#fff;
+	outline:none;
+	font:99% sans-serif;
+	color:#333;
+	transition-property: background-color, box-shadow;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
+	-webkit-transition-property: background-color, -webkit-box-shadow;
+	-webkit-transition-duration: 0.25s;
+	-webkit-transition-timing-function: ease-in-out;
+	-moz-transition-property: background-color, -moz-box-shadow;
+	-moz-transition-duration: 0.25s;
+	-moz-transition-timing-function: ease-in-out;
+}
+input:focus, textarea:focus, select:focus, button:focus {
+	background-color:#fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); 
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+input:disabled, textarea:disabled, select:disabled  {font-style:italic; color:#999; background-color:#ddd;}
+
+label {display:inline-block; width:200px;}
+input.width-50, select.width-50, textarea.width-50 {width:50px;}
+input.width-75, select.width-75, textarea.width-75 {width:75px;}
+input.width-100, select.width-100, textarea.width-100 {width:100px;}
+input.width-125, select.width-125, textarea.width-125 {width:125px;}
+input.width-150, select.width-150, textarea.width-150 {width:150px;}
+input.width-175, select.width-175, textarea.width-175 {width:175px;}
+input.width-200, select.width-200, textarea.width-200 {width:200px;}
+input.width-225, select.width-225, textarea.width-225 {width:225px;}
+input.width-250, select.width-250, textarea.width-250 {width:250px;}
+input.width-300, select.width-300, textarea.width-300 {width:300px;}
+input.width-350, select.width-350, textarea.width-350 {width:350px;}
+input.width-400, select.width-400, textarea.width-400 {width:400px;}
+/* END Form Styling -------------------------------------------------------------------------------------- */
+
+/* Responsive Tables Styling ---------------------------------------------------------------------------------- */
+/* http://elvery.net/demo/responsive-tables/ */
+@media only screen and (max-width: 767px) {
+	
+	/* Force table to not be like tables anymore */
+	table, 
+	thead, 
+	tbody, 
+	th, 
+	td, 
+	tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	tr { border: 1px solid #ccc; }
+ 
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+	}
+ 
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	td:before { content: attr(data-title); }
+}
+/* END Responsive Tables Styling -------------------------------------------------------------------------------------- */
+
+/* Messages --------------------------------------------------------------------------------------------------------------------------------------------------- */
+#message {margin-bottom:10px; text-align:center;}
+#message .status_msg {margin:0; padding:5px; background-color:#DF7;}
+#message .error_msg {margin:0; padding:5px; background-color:#FAA;}
+
+/* END CUSTOM STYLES */
